@@ -1,0 +1,5 @@
+PS C:\Users\samik> docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+PS C:\Users\samik> docker image ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE

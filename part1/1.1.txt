@@ -1,0 +1,5 @@
+PS C:\Users\samik> docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+a04742fd362f   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 18 seconds ago             interesting_banach
+2b8bfd32bf61   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 11 seconds ago             flamboyant_sanderson
+90ab78bfbc88   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    naughty_fermi

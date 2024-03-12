@@ -1,4 +1,4 @@
-PS C:\Users\samik> docker run -d --rm -it --name message devopsdockeruh/simple-web-service:ubuntu
+PS C:\Users\samik> docker run -d --name message devopsdockeruh/simple-web-service:ubuntu
 962ad4424fa1dd92059913930c53db206d6d605538b104fe2de14c494e30a702
 
 PS C:\Users\samik> docker exec message tail -f ./text.log

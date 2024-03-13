@@ -1,5 +1,5 @@
 Build the image:
-docker build . -t web-server
+PS C:\Users\samik> docker build . -t web-server
 
 Run the container:
-docker run web-server
+PS C:\Users\samik> docker run web-server

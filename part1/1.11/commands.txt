@@ -1,6 +1,6 @@
-docker build . -t spring
+PS C:\Users\samik> docker build . -t spring
 
-docker run -p 127.0.0.1:8080:8080 spring
+PS C:\Users\samik> docker run -p 127.0.0.1:8080:8080 spring
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \

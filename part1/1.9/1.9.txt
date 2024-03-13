@@ -1,0 +1,1 @@
+PS C:\Users\samik> docker run -v "c/users/samik/data/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service

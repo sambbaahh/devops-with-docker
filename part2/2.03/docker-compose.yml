@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    image: backend
+    build:
+      dockerfile: Dockerfile.backend
+    ports:
+     - 8080:8080
+    container_name: backend
+  
+  frontend:
+    image: frontend
+    ports:
+     - 5000:5000
+    build:
+      dockerfile: Dockerfile.frontend
+    container_name: frontend

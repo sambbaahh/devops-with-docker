@@ -1,0 +1,9 @@
+I had to change environment variables in Dockerfile.backend & Dockerfile.frontend 
+
+Dockerfile.frontend:
+ENV REACT_APP_BACKEND_URL="http://localhost/api/"
+
+Dockerfile.backend:
+ENV REQUEST_ORIGIN="http://localhost"
+
+After these changes, the buttons worked in http://localhost

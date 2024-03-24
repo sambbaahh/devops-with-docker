@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/sh
+
+echo "$DOCKER_PWD" | docker login -u $DOCKER_USER --password-stdin
 
 git clone https://github.com/$1
 

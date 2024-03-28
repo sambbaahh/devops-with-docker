@@ -1,4 +1,4 @@
-FROM golang:alpine3.17
+FROM golang:1.16
 
 RUN apt-get update && apt-get install -y git && \
   git clone https://github.com/docker-hy/material-applications.git

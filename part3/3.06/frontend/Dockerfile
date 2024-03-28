@@ -1,4 +1,4 @@
-FROM node:16-alpine3.17
+FROM node:16.0
 
 RUN apt-get update && apt-get install -y git && \ 
   git clone https://github.com/docker-hy/material-applications.git

@@ -1,0 +1,7 @@
+Size:
+REPOSITORY                                   TAG       IMAGE ID       CREATED              SIZE
+example-backend                              latest    8333e37e1e9e   About a minute ago   18.2MB
+
+
+CREDITS:
+https://github.com/coding-latte/golang-docker-multistage-build-demo/blob/master/scratch.dockerfile

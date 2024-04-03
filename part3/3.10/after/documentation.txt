@@ -1,0 +1,5 @@
+Size:
+REPOSITORY                                   TAG       IMAGE ID       CREATED              SIZE
+chatroom                                     alpine    e13c42a5fbf3   About a minute ago   588MB
+
+Nearly a gigabyte saved with build improvements!

@@ -1,0 +1,12 @@
+Sizes before:
+REPOSITORY                                   TAG       IMAGE ID       CREATED         SIZE
+frontend                                     latest    f1399679f08f   1 days ago      1.24GB
+backend                                      latest    1beb5405fbf3   1 days ago      1.12GB
+
+Sizes after optimization:
+REPOSITORY                                   TAG       IMAGE ID       CREATED         SIZE
+backend                                      latest    137e39d8811d   2 minutes ago   471MB        
+frontend                                     latest    c5ac5c9a4463   5 minutes ago   399MB
+
+As we can see, the sizes have been reduced by more than half after we changed
+the ubuntu-based images to the alpine-based ones.
